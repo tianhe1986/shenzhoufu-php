@@ -1,5 +1,6 @@
 <?php
 require_once(dirname(dirname(__FILE__)) . '/shenzhoufu.config.php');
+require_once(dirname(__FILE__) . '/hash.php');
 require_once(dirname(__FILE__) . '/shenzhoufu_tool.class.php');
 
 class ShenzhoufuNotify
