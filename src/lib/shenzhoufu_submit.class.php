@@ -97,4 +97,9 @@ class ShenzhoufuSubmit {
 		
 		return $returnParam;
 	}
+	
+	static function weixinMobileSubmit($params)
+	{
+		return \ShenzhoufuTool::curlPost(\ShenzhoufuConfig::$weixinMobilePostUrl, $params);
+	}
 }

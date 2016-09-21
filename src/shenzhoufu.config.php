@@ -9,8 +9,10 @@ class ShenzhoufuConfig
 	public static $mobilePostUrl = 'http://pay3.shenzhoufu.com/interface/version3/serverconnszx/entry-noxml.aspx';
 	//游戏点卡支付数据提交URL
 	public static $gamecardPostUrl = 'http://pay3.shenzhoufu.com/interface/version3/serverconngc/entry.aspx';
-	//微信支付数据提交URL
+	//微信PC支付数据提交URL
 	public static $weixinPostUrl = 'http://pay3.shenzhoufu.com/version3/serverconnwxsm/entry.aspx';
+	//微信手机支付数据提交URL
+	public static $weixinMobilePostUrl = 'http://pay3.shenzhoufu.com/interface/version3/entry.aspx';
 	//私钥,用于md5签名
 	public static $privateKey = '123456';
 	//des key，用于加密卡类信息
